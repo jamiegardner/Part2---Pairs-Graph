@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Questionnaire Dashboard</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+
+<script>
+
+  function circle() {
+    document.getElementById("circle").setAttribute('r', "50" );
+    document.getElementById("circle1").setAttribute('r', "60" );
+}
+
+function circle1() {
+    document.getElementById("circle").setAttribute('r', "10" );
+    document.getElementById("circle1").setAttribute('r', "20" );
+}
+
+</script>
+
+  <svg id="svg" >
+       <circle id = "circle" cx = "200" cy = "150" r = "30" fill="blue" stroke-width = "2" fill = "black"/>
+       <circle id = "circle1" cx = "100" cy = "150" r = "30" fill="red" stroke-width = "2" fill = "black"/>
+      </svg>
+  <br/>
+      Set size of circles
+      <input type="button" onclick="circle()" value="big" />
+      <input type="button" onclick="circle1()" value="small" /><br /><br />
+</body>
+</html>
