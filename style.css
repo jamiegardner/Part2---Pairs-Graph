@@ -1,6 +1,15 @@
 body {
   font-family: sans-serif;
-  background: #ccc;
+  background: #fff;
+  text-align: center;
 }
 
-#svg { width:400px; height:200px; border:5px solid silver }
+#svg {
+  width: 60%;
+  height: 800px;
+  border: 5px dashed silver;
+}
+
+#questions {
+  text-align: center;
+}

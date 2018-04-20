@@ -10,16 +10,21 @@
 </head>
 <body>
 
-  <svg id="svg" >
-       <circle id = "circle" cx = "100" cy = "100" r = "30" fill="blue" stroke-width = "2" fill = "black"/>
-       <circle id = "circle1" cx = "240" cy = "100" r = "30" fill="red" stroke-width = "2" fill = "black"/>
-  </svg>
-  <br/>
-      Set size of circles
-      <input type="button" onclick="circle()" value="big" />
-      <input type="button" onclick="circle1()" value="small" /><br /><br />
-      Set colour of circles
-      <input type="button" onclick="colour()" value="black" />
-
+    <svg id="svg" >
+         <circle id = "circle" cx = "100" cy = "100" r = "30" fill="blue" stroke-width = "2"/>
+         <circle id = "circle1" cx = "240" cy = "100" r = "30" fill="red" stroke-width = "2"/>
+    </svg>
+    <br/><br/>
+    <div id="questions">
+        Set size of circles
+        <input type="button" onclick="circle()" value="Big" />
+        <input type="button" onclick="circle1()" value="Small" /><br /><br />
+        Set colour of circles
+        <input type="button" onclick="black()" value="black" />
+        <input type="button" onclick="orange()" value="Orange" />
+        <input type="button" onclick="purple()" value="Purple" />
+        <input type="button" onclick="green()" value="Green" />
+        <input type="button" onclick="grey()" value="Grey" />
+      </div>
 </body>
 </html>
